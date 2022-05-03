@@ -1,30 +1,12 @@
 ## Tasks
 
-(Example)[https://drive.google.com/file/d/181ooBlB1kKJUsob-p7rQ7r0xjP2cNq89/view?usp=sharing]
+Create a Pagination component
 
-First 15 min:
+It should accept:
 
-- Fetch the Invoice from Invoice Api: GET /api/invoice
-- Render the date of the invoice
-- Render Invoice Items in the card
-- Calculate and display Total
+- number of pages
+- number of buttons
 
-Next 15 Min:
+Number of buttons should be the amount of buttons that display excluding the first/last buttons (so you could see 2 more buttons what's passed in here)
 
-- Structure markup and styling to match image
-- Card should be responsive
-
-Next 15 Min:
-
-- Determine which items are free: An item is free if:
-
-  - The name is a palindrome
-  - The name is an anagram with another item
-
-- Free items should be crossed out and semi transparent
-- The total should reflect the original total crossed out, and the discounted total
-
-Bonus:
-
-- Add notes an invoice item
-- Add a search field
+It should render according to the samples
