@@ -1,6 +1,8 @@
 ## Tasks
 
-Create a Pagination component
+Create a Pagination component as shown here:
+
+https://csb-y746lt.vercel.app/
 
 It should accept:
 
